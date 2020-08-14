@@ -2,11 +2,17 @@
 
 (Use at your own risk)
 
+## Installation
+
+```
+npm install https://github.com/rmdort/react-usesuspense
+```
+
 ## Usage
 
 ````
 import React, { Suspense } from 'react
-import useSuspense from '@rmdort/useSuspense'
+import useSuspense from 'react-usesuspense'
 
 const SearchResults = ({ query }) => {
   const api = useMemo(() => {
